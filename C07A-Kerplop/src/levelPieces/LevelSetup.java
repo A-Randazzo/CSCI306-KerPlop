@@ -55,6 +55,18 @@ public class LevelSetup {
 		nextMoveable = new Human(10);
 		board[10] = nextMoveable;
 		movingPieces.add(nextMoveable);
+		nextGamePiece = new Glory(15);
+		board[15] = nextGamePiece;
+		interactingPieces.add(nextGamePiece);
+		nextGamePiece = new Vampire(3);
+		board[3] = nextGamePiece;
+		interactingPieces.add(nextGamePiece);
+		nextGamePiece = new Stake(9);
+		board[9] = nextGamePiece;
+		interactingPieces.add(nextGamePiece);
+		nextGamePiece = new Cross(8);
+		board[8] = nextGamePiece;
+		interactingPieces.add(nextGamePiece);
 		
 	}
 	
