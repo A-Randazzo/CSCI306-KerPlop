@@ -26,7 +26,7 @@ public class TestMovingPieces {
 		boolean right = true;
 		int startLoc = 10;
 		for (int i = 0; i < 100; i++) {
-			human.move(board, 11);
+			human.move(board, 15);
 			int loc = human.getLocation();
 			if (startLoc - loc > 0) {
 				left = true;
